@@ -7,7 +7,7 @@ app.use(express.json());
 const User = require("../auth-service/User");
 
 const dbUrl =
-  "mongodb+srv://admin:admin@cluster0.ftfb6qx.mongodb.net/?retryWrites=true&w=majority";
+  "";
 
 const connectionParams = {
   useNewUrlParser: true,

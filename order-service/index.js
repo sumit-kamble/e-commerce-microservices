@@ -9,7 +9,7 @@ app.use(express.json());
 
 var channel, connect;
 const dbUrl =
-  "mongodb+srv://admin:admin@cluster0.ftfb6qx.mongodb.net/?retryWrites=true&w=majority";
+  "";
 
 const connectionParams = {
   useNewUrlParser: true,
